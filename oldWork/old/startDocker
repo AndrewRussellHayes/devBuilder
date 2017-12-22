@@ -1,0 +1,12 @@
+#!/bin/sh
+
+docker run \
+	-it \
+	--rm \
+	--name dev \
+	--mount type=bind,source="$(pwd)",target=/dotfiles \
+	dotfilesdev
+
+
+
+#docker run -d -it --rm --name dev --mount type=bind,source="$(pwd)",target=/dotfiles dotfiledev

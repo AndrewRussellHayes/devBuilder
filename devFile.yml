@@ -1,0 +1,10 @@
+---
+# Dev env details
+os: centos:centos7
+provider: docker
+mounts:
+  $HOME/dev/go: /godir/
+  $HOME/dev/dotfiles: /dotfiles/
+
+
+---

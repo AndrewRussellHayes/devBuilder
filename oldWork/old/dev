@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#NOTE: this expect to be ran from the dotfiles dir.
+
+./tools/buildDocker
+#sh ./tools/buildDocker
+./tools/startDocker
+#sh ./tools/startDocker
